@@ -42,7 +42,7 @@ jobs:
       -
         name: Setup publish tags and versions for image
         id: metadata
-        uses: docker/metadata-action@v4
+        uses: docker/metadata-action@v5
         with:
           images: |
             ${{ env.IMAGE_NAMES }}
